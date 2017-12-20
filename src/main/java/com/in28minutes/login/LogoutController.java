@@ -23,6 +23,6 @@ public class LogoutController {
 			new SecurityContextLogoutHandler().logout(request, response, auth);
 			request.getSession().invalidate();
 		}
-		return "redirect:/";
+		return "rrredirect:/";
 	}
 }
