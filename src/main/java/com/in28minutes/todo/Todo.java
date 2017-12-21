@@ -23,8 +23,10 @@ public class Todo {
 		super();
 		this.id = id;
 		this.user = user;
+		
 		this.desc = desc;
 		this.targetDate = targetDate;
+		
 		this.isDone = isDone;
 	}
 
