@@ -9,7 +9,7 @@ public class Todo {
 	private int id;
 	private String user;
 
-	@Size(min = 6, message = "Enter atleast 6 characters")
+	@Size(min = 6, message = "Enter atleast 1202 characters")
 	private String desc;
 
 	private Date targetDate;
